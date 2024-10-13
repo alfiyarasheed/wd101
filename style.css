@@ -1,0 +1,85 @@
+h1{
+  text-align: center; 
+  margin-top: 2%;
+}
+body{
+  background-color: rgb(248,249,251);
+}
+
+     .box{
+        margin:0 auto; 
+        width:400px ;
+        height:450px;
+        padding: 20px;
+        background:#FEFEFE;
+        border-radius: 1%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+     }
+   
+    
+     label {
+margin:10px ;
+padding:10px;
+line-height:30px;
+width:150px;
+display: inline-block;
+
+      }
+      
+      label[for="checkbox"] {
+        display: inline;
+        margin-left: 0px;
+      }
+
+      input[type="checkbox"] {
+          margin-left: 20px;
+      } 
+    
+
+      input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"]  {
+        height: 40px;
+        /* margin: 0px 10px 10px 100px; */
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;  
+        width: 170px;      
+        background-color: #F0F1F3;
+} 
+   
+      
+      #submit{
+    background-color: rgb(33,189,82);
+    padding:20px 20px ;
+    border-radius:10px;
+    border:none;
+    color: aliceblue;
+    margin-left:20px;
+    margin-top: 10px;
+width:110px;
+   
+}
+#ageError {
+  color: red;
+  display: none;  /* Hidden by default */
+  text-align: center;
+}
+#registrationData{
+margin: auto ;
+width: 50%;
+height:50%;
+background-color:#FEFEFE ;
+display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  border-radius: 1%;
+
+}
+.table-auto{
+  text-align: center;
+  border-collapse: collapse;
+}
