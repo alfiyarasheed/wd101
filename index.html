@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+    <title>registration form</title>
+ <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+    <form id="registration-form">
+      <p id="ageError">Age must be between 18 and 55.</p>
+      <h1>Registration Form</h1>
+      <label for="name" class="lab">Name</label>
+    <input required type="text" id="name" name="name" placeholder="Enter full name"><br>
+    <label for="email" class="lab">Email</label>
+    <input required type="email" id="email" name="email" placeholder="Enter email"><br>
+    <label for="password" class="lab">Password</label>
+    <input required type="password" id="password" name="password" placeholder="Enter password"><br>
+    <label for="dob" class="lab" >Date of Birth</label>
+    <input required type="date" id="dob" name="dob"><br>
+    <input required type="checkbox" id="checkbox" name="checkbox">
+    <label for="checkbox">Accept Terms & Conditions</label><br>
+   <input required type="submit" id="submit" name="submit">
+    </form>
+</div>
+<div id="registrationData"></div> 
+<script src="index.js"></script>
+  </body>
+
+  </html>
